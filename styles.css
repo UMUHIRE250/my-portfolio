@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #f2f9f5;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+section#home {
+    background: #eb7b7b;
+    padding: 4rem 1rem;
+}
+
+section#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+section#home p {
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    background: #5b52a2;
+    color: #f0eaea;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ section#about{ 
+    background: #d0cedc;
+}
+
+section#projects .project {
+    margin-bottom: 2rem;
+    background: #77e6d9;
+}
+
+section#projects .project h3 {
+    margin-bottom: 0.5rem;
+}
+
+section#projects .project p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f9f8;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    width: 80%;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5rem 2rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
